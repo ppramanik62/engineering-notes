@@ -1,10 +1,10 @@
-# Database papers
+# Engineering notes
 
-My notes from learning how databases work: the papers, specs and design docs I read, and what I learned from each.
+Notes from working out how things are built, and from practising the thinking behind it.
 
-Alongside, I'm building [onyxdb](https://github.com/PPRAMANIK62/onyxdb), a SQL database in Rust.
+[database-references](database-references) holds the sources behind each part of a database, one section per topic. Alongside the reading I'm building [onyxdb](https://github.com/PPRAMANIK62/onyxdb), a SQL database in Rust.
 
-The sources are in [database-references](database-references), one section per topic. [problem-solving-sessions](problem-solving-sessions) is separate: one design problem a day, talked through and written up.
+[problem-solving-sessions](problem-solving-sessions) is a separate thing: one design problem a day, talked through and written up afterwards.
 
 ## Milestones
 
