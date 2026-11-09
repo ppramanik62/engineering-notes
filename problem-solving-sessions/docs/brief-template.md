@@ -21,9 +21,9 @@ Something specific you did well, and why it worked.
 
 Where the thinking stalled or went sideways, and what got it moving again. A question, a hint, a worked example, whatever it was.
 
-## Where we landed
+## The design we landed on
 
-The design we ended up with, in a few lines, and what it costs.
+The whole design in one place, written so it's useful later: what the data holds, each operation in order, and what each choice costs. This is the part you'd come back to if you ever built the thing.
 
 ## Worth coming back to
 
