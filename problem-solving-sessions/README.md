@@ -2,7 +2,7 @@
 
 One problem a day. We talk it through. I write a short note afterwards.
 
-This is for getting better at looking at a problem and working out a good design for it. No code. We start wherever makes sense and go as deep as the problem needs, in plain words and rough sketches.
+This is for getting better at looking at a problem and working out a good design for it. No code during the session. We start wherever makes sense and go as deep as the problem needs, in plain words and rough sketches.
 
 Started 2026-11-07.
 
@@ -26,6 +26,7 @@ It's a conversation between a friend who has seen a few of these and someone lea
 | `docs/brief-template.md` | The shape of the notes |
 | `docs/progress.md` | What we've covered, what's clicking, what's still shaky |
 | `discussions/` | One note per session, named `YYYY-MM-DD-<slug>.md` |
+| `code/` | Each design built in Rust, one crate per session |
 
 ## Starting a session
 
