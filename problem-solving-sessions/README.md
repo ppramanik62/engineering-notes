@@ -26,7 +26,6 @@ It's a conversation between a friend who has seen a few of these and someone lea
 | `docs/brief-template.md` | The shape of the notes |
 | `docs/progress.md` | What we've covered, what's clicking, what's still shaky |
 | `discussions/` | One note per session, named `YYYY-MM-DD-<slug>.md` |
-| `code/` | Each design built in Rust, one crate per session |
 
 ## Starting a session
 
