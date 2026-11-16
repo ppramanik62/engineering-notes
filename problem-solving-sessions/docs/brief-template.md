@@ -1,3 +1,10 @@
+---
+type: project
+topic: [system-design]
+status: active
+created: 2026-11-08
+---
+
 # What the notes look like
 
 I write one of these after each session, into `discussions/`. Short, a few hundred words. It's a record of the conversation, not a report card.

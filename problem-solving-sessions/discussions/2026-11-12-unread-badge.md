@@ -1,3 +1,9 @@
+---
+type: note
+topic: [system-design]
+created: 2026-11-12
+---
+
 # 2026-11-12: the unread badge
 
 ## The problem

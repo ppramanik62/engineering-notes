@@ -1,3 +1,10 @@
+---
+type: project
+topic: [system-design]
+status: active
+created: 2026-11-08
+---
+
 # Progress
 
 What we've covered, and what's worth another look. I keep this up to date as we go.

@@ -1,3 +1,10 @@
+---
+type: project
+topic: [system-design]
+status: active
+created: 2026-11-08
+---
+
 # How we talk
 
 ## The shape of it

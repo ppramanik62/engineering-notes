@@ -1,3 +1,10 @@
+---
+type: project
+topic: [system-design]
+status: active
+created: 2026-11-07
+---
+
 # Problem-solving sessions
 
 One problem a day. We talk it through. I write a short note afterwards.

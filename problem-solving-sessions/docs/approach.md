@@ -1,3 +1,10 @@
+---
+type: project
+topic: [system-design]
+status: active
+created: 2026-11-07
+---
+
 # Questions worth asking
 
 Not a checklist. These are the questions that tend to get you unstuck, roughly in the order they're useful.

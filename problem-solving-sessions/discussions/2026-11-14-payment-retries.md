@@ -1,3 +1,9 @@
+---
+type: note
+topic: [system-design]
+created: 2026-11-14
+---
+
 # 2026-11-14: a payment that is retried
 
 ## The problem

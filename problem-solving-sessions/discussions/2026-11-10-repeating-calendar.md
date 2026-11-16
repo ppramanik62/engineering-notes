@@ -1,3 +1,9 @@
+---
+type: note
+topic: [system-design]
+created: 2026-11-10
+---
+
 # 2026-11-10: a calendar with repeating events
 
 ## The problem

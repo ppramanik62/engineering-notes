@@ -1,3 +1,10 @@
+---
+type: project
+topic: [system-design]
+status: active
+created: 2026-11-08
+---
+
 # The problem bank
 
 A pool to draw from, not a course to work through. There's no order, and nothing here has to get used.

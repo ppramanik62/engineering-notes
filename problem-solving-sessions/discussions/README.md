@@ -1,3 +1,10 @@
+---
+type: project
+topic: [system-design]
+status: active
+created: 2026-11-07
+---
+
 # Discussions
 
 One note per session, named `YYYY-MM-DD-<slug>.md`.

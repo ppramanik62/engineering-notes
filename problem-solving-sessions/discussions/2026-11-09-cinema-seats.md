@@ -1,3 +1,9 @@
+---
+type: note
+topic: [system-design]
+created: 2026-11-09
+---
+
 # 2026-11-09: booking seats for a cinema showing
 
 ## The problem
