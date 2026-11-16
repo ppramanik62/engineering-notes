@@ -16,7 +16,7 @@ onyxdb is built in milestones, each a version you can run.
 
 ## Now reading
 
-4. Write-ahead log: how a database promises that a committed write survives a crash.
+5. Key-value storage: what a storage engine promises to the code above it, and how one test suite can check every engine.
 
 ## Done
 
@@ -25,3 +25,4 @@ onyxdb is built in milestones, each a version you can run.
 | 1 | [Virtual file system](database-references/README.md#virtual-file-system): how a database talks to files, and what a crash does to them | SQLite VFS docs, Dan Luu, OSDI '14, ATC '20 |
 | 2 | [Page structure](database-references/README.md#page-structure): how a database stores data in fixed-size pages | CMU 15-445, SQLite file format, PostgreSQL page layout, Ross Williams on CRCs |
 | 3 | [Buffer manager](database-references/README.md#buffer-manager): how a database keeps pages in memory, and when it writes them back | CMU 15-445, The Internals of PostgreSQL, the mmap paper (CIDR '22), LRU-K (SIGMOD '93) |
+| 4 | [Write-ahead log](database-references/README.md#write-ahead-log): how a database promises that a committed write survives a crash | CMU 15-445, Atomic Commit In SQLite, LevelDB log format, LWN on `fsync` |
