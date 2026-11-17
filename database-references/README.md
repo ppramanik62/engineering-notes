@@ -38,6 +38,14 @@ A committed write must survive a power cut. An append-only log of checksummed re
 3. [LevelDB log format](https://github.com/google/leveldb/blob/main/doc/log_format.md) (LevelDB docs): records split across 32 KiB blocks, each fragment with a checksum and a type.
 4. [Ensuring data reaches disk](https://lwn.net/Articles/457667/) (Jeff Moyer, LWN, 2011): the layers between `write` and the disk, and the calls that make a file durable.
 
+## Key-value storage
+
+Every storage engine makes the same promises to the code above it: keys in order, a group of writes that happens whole or not at all, and durability when it is asked for. One interface writes those promises down, and one test suite checks any engine against a simple model, shrinks a failure to a few steps, and crashes the engine at every write. Built as [`kv`](https://github.com/PPRAMANIK62/onyxdb/tree/main/crates/kv) in onyxdb.
+
+1. [LevelDB documentation](https://github.com/google/leveldb/blob/main/doc/index.md) (LevelDB docs): the whole interface of a real engine on one page: get, put, delete, atomic write batches, synchronous writes, iterators and snapshots.
+2. [RocksDB wiki: Iterator](https://github.com/facebook/rocksdb/wiki/Iterator): what an iterator promises while other writes happen, its bounds, and the resources an open iterator keeps from being released.
+3. [QuickCheck: A Lightweight Tool for Random Testing of Haskell Programs](https://www.cs.tufts.edu/~nr/cs257/archive/john-hughes/quick.pdf) (Claessen and Hughes, ICFP '00): random tests from properties, checking one implementation against another, and making a failing input smaller.
+
 ## Course notes
 
 [CMU 15-445](cmu), lecture notes and videos indexed by topic. Several of the sections above lean on these.
